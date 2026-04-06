@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "search_iterations": 25,
+  "tracking_iterations": 35,
+  "rollout_steps": 1024,
+  "n_uavs": 3,
+  "n_targets": 3,
+  "output_dir": "/content/swarm_artifacts",
+  "search_stats": {
+    "last_loss": -0.04105815581149525,
+    "avg_reward": 2.4304251569531656,
+    "success_rate": 0.9219330855018587
+  },
+  "tracking_stats": {
+    "last_loss": 0.5001251903526923,
+    "avg_reward": 3.916650042605426,
+    "success_rate": 0.9429824561403509
+  },
+  "notes": "PPO + LSTM search and tracking policies; obstacle avoidance omitted."
+}
